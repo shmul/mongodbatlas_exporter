@@ -1,10 +1,10 @@
 package registerer
 
 import (
-	"mongodbatlas_exporter/measurer"
-	"mongodbatlas_exporter/model"
+	"github.com/shmul/mongodbatlas_exporter/measurer"
+	"github.com/shmul/mongodbatlas_exporter/model"
 
-	internal "mongodbatlas_exporter/mongodbatlas"
+	internal "github.com/shmul/mongodbatlas_exporter/mongodbatlas"
 
 	"go.mongodb.org/atlas/mongodbatlas"
 )

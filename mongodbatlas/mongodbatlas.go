@@ -3,8 +3,8 @@ package mongodbatlas
 import (
 	"context"
 	"errors"
-	"mongodbatlas_exporter/measurer"
-	m "mongodbatlas_exporter/model"
+	"github.com/shmul/mongodbatlas_exporter/measurer"
+	m "github.com/shmul/mongodbatlas_exporter/model"
 	"strings"
 
 	"github.com/go-kit/kit/log"

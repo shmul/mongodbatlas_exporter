@@ -2,8 +2,8 @@ package measurer
 
 import (
 	"fmt"
-	"mongodbatlas_exporter/collector/transformer"
-	"mongodbatlas_exporter/model"
+	"github.com/shmul/mongodbatlas_exporter/collector/transformer"
+	"github.com/shmul/mongodbatlas_exporter/model"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"go.mongodb.org/atlas/mongodbatlas"

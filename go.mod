@@ -1,4 +1,4 @@
-module mongodbatlas_exporter
+module github.com/shmul/mongodbatlas_exporter
 
 go 1.16
 

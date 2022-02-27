@@ -1,7 +1,7 @@
 package measurer
 
 import (
-	"mongodbatlas_exporter/model"
+	"github.com/shmul/mongodbatlas_exporter/model"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

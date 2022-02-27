@@ -1,8 +1,8 @@
 package collector
 
 import (
-	"mongodbatlas_exporter/measurer"
-	a "mongodbatlas_exporter/mongodbatlas"
+	"github.com/shmul/mongodbatlas_exporter/measurer"
+	a "github.com/shmul/mongodbatlas_exporter/mongodbatlas"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"

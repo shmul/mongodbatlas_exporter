@@ -2,9 +2,9 @@ package collector
 
 import (
 	"fmt"
-	transformer "mongodbatlas_exporter/collector/transformer"
-	"mongodbatlas_exporter/measurer"
-	a "mongodbatlas_exporter/mongodbatlas"
+	transformer "github.com/shmul/mongodbatlas_exporter/collector/transformer"
+	"github.com/shmul/mongodbatlas_exporter/measurer"
+	a "github.com/shmul/mongodbatlas_exporter/mongodbatlas"
 
 	"github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus"

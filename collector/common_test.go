@@ -1,8 +1,8 @@
 package collector
 
 import (
-	"mongodbatlas_exporter/measurer"
-	"mongodbatlas_exporter/model"
+	"github.com/shmul/mongodbatlas_exporter/measurer"
+	"github.com/shmul/mongodbatlas_exporter/model"
 	"os"
 	"reflect"
 	"testing"

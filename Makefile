@@ -16,6 +16,6 @@ docker:
 	docker build -t "$(DOCKER_IMAGE_NAME):$(VERSION)" .
 
 build:
-	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo \
+	cd cmd; CGO_ENABLED=0 GOOS=linux go build  -a -installsuffix cgo \
 	-ldflags="-w -s -X github.com/prometheus/common/version.Branch=${BRANCH} -X github.com/prometheus/common/version.Revision=${REVISION} -X github.com/prometheus/common/version.Version=${VERSION}" \
 	-o $(BIN_DIR)/$(BIN)

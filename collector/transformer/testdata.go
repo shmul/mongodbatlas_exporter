@@ -1,7 +1,7 @@
 package transformer
 
 import (
-	m "mongodbatlas_exporter/model"
+	m "github.com/shmul/mongodbatlas_exporter/model"
 )
 
 var (

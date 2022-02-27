@@ -1,8 +1,8 @@
 package transformer
 
 import (
+	m "github.com/shmul/mongodbatlas_exporter/model"
 	"math"
-	m "mongodbatlas_exporter/model"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

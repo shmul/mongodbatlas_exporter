@@ -1,8 +1,8 @@
 package registerer
 
 import (
-	"mongodbatlas_exporter/collector"
-	a "mongodbatlas_exporter/mongodbatlas"
+	"github.com/shmul/mongodbatlas_exporter/collector"
+	a "github.com/shmul/mongodbatlas_exporter/mongodbatlas"
 	"strconv"
 	"time"
 

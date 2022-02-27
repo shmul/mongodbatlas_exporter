@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"mongodbatlas_exporter/mongodbatlas"
-	"mongodbatlas_exporter/registerer"
+	"github.com/shmul/mongodbatlas_exporter/mongodbatlas"
+	"github.com/shmul/mongodbatlas_exporter/registerer"
 	"net/http"
 	"os"
 	"time"
@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	name = "mongodbatlas_exporter"
+	name = "github.com/shmul/mongodbatlas_exporter"
 )
 
 var (
