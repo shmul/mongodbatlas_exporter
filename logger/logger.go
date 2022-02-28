@@ -35,10 +35,11 @@ func Create(l string) (logger log.Logger, err error) {
 	return logger, nil
 }
 
-func CreateUsingLogrus(l string, lgr logrus.FieldLogger) (logger log.Logger, err error) {
-	lvl := toLevel(l)
+func CreateUsingLogrus(lgr *logrus.Logger) (logger log.Logger, err error) {
+	level := lgr.GetLevel().String()
+	lvl := toLevel(level)
 	if lvl == nil {
-		return nil, fmt.Errorf("unrecognized log level: %v", l)
+		return nil, fmt.Errorf("unrecognized log level: %v", level)
 	}
 
 	return kl.NewLogger(lgr), nil
