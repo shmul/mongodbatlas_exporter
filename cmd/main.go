@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/shmul/mongodbatlas_exporter/logger"
 	"github.com/shmul/mongodbatlas_exporter/mongodbatlas"
 	"github.com/shmul/mongodbatlas_exporter/registerer"
 	"net/http"
@@ -37,7 +38,7 @@ func main() {
 	kingpin.Version(version.Print(name))
 	kingpin.Parse()
 
-	logger, err := createLogger(*logLevel)
+	logger, err := logger.Create(*logLevel)
 	if err != nil {
 		fmt.Printf("failed to create logger with error: %v", err)
 		os.Exit(1)
